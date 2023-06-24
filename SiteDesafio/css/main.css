@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Main Format*/
+#main{
+    position: absolute;
+    left: 250px;
+    width: calc(100% - 250px);
+    height: 100%;
+}
+#main .banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/banner2.jpg");
+    background-size: cover;
+}
+#main .texto-descricao{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#main h1{
+    font-size: 60px;
+}
+#main h2{
+    font-size: 40px;
+}
+#main .img{
+    background-image: url("../img/teste.jpg");
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+}
+#main a{
+    background-color: rgb(28, 27, 117);
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+/*Hovering*/
+#main a:hover{
+    transition: 0.5s;
+    color: blueviolet;
+}
